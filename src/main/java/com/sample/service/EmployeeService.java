@@ -1,10 +1,10 @@
-package com.walgreens.poc.service;
+package com.sample.service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import com.walgreens.poc.exception.RecordNotFoundException;
+import com.sample.exception.RecordNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
@@ -12,8 +12,8 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import com.walgreens.poc.model.EmployeeEntity;
-import com.walgreens.poc.repository.EmployeeRepository;
+import com.sample.model.EmployeeEntity;
+import com.sample.repository.EmployeeRepository;
  
 @Service
 public class EmployeeService {

@@ -1,4 +1,4 @@
-package com.walgreens.poc.exception;
+package com.sample.exception;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ResponseStatus;

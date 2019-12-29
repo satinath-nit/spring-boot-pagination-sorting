@@ -1,4 +1,4 @@
-package com.walgreens.poc.model;
+package com.sample.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

@@ -1,10 +1,10 @@
-package com.walgreens.poc.web;
+package com.sample.web;
 
 import java.util.List;
 
-import com.walgreens.poc.exception.RecordNotFoundException;
-import com.walgreens.poc.model.EmployeeEntity;
-import com.walgreens.poc.service.EmployeeService;
+import com.sample.exception.RecordNotFoundException;
+import com.sample.model.EmployeeEntity;
+import com.sample.service.EmployeeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
